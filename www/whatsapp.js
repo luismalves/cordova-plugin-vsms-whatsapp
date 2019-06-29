@@ -1,5 +1,10 @@
 var exec = require('cordova/exec');
 
-exports.coolMethod = function (arg0, success, error) {
-    exec(success, error, 'whatsapp', 'coolMethod', [arg0]);
+var Whatsapp = {
+    send: function(send_to, successCB, errorCB) {
+        console.warn("Sending whatsapp : " + send_to);
+        exec(successCB, errorCB, "Whatsapp", "send", [send_to]);
+    }
 };
+
+module.exports = Whatsapp;

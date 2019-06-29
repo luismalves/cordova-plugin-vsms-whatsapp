@@ -1,26 +1,17 @@
 {
-  "name": "cordova-plugin-vsms-whatsapp",
-  "version": "0.0.1",
-  "description": "Send message WhatsApp",
-  "cordova": {
-    "id": "cordova-plugin-vsms-whatsapp",
-    "platforms": []
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/presttec/cordova-plugin-vsms-whatsapp.git"
-  },
-  "keywords": [
-    "ecosystem:cordova"
-  ],
-  "author": "PresTEC",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/presttec/cordova-plugin-vsms-whatsapp/issues"
-  },
-  "homepage": "https://github.com/presttec/cordova-plugin-vsms-whatsapp#readme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "version": "0.0.1",
+    "name": "cordova-plugin-vsms-whatsapp",
+    "cordova_name": "Whatsapp",
+    "description": "Whatsapp Plugin",
+    "license": "MIT",
+    "repo": "https://github.com/presttec/cordova-plugin-vsms-whatsapp.git",
+    "issue": "https://github.com/presttec/cordova-plugin-vsms-whatsapp/issues",
+    "keywords": [
+        "whatsapp"
+    ],
+    "platforms": [
+        "android",
+        "ios"
+    ],
+    "engines": []
 }

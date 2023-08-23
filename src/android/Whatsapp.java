@@ -10,7 +10,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
-public class W4b extends CordovaPlugin {
+public class Whatsapp extends CordovaPlugin {
     public static final String ACTION_WHATSAPP_SEND = "send";
     
     @Override
